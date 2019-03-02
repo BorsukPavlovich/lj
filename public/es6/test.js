@@ -5,8 +5,8 @@ const sentences = [
     {subject : 'Elephants', verb : 'are', object : 'large'},
 ];
 
-function say({suject, verb, object}) {
-    onsole.log('${subject} ${verb} ${object}');
+function say({subject, verb, object}) {
+    console.log('${subject} ${verb} ${object}');
 }
 
 for(let s of sentences) {
